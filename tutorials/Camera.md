@@ -162,7 +162,7 @@ To remedy this we need to define a **provider** in order to share files across a
 Negative
 : Heads up, you'll need an internet connection for modifying your gradle as it will download new files.
 
-You need to add `compile 'com.android.support:support-v4:<version>'` to your app's build.gradle file where `<version>` is set to your target SDK level.  
+You need to add `compile 'com.android.support:support-v4:<version>'` to your app's build.gradle file under dependencies where `<version>` is set to your target SDK level.  The version also needs to be in the format 28.0.0.
 The specific file you want, as there are two build.gradle files, is the one that is annotated with "Module: app" in *Android* view or `app/build.gradle` in *Project* view.
 Your gradle will prompt you to sync, which can take a little while as it collects the appropriate files.
 
